@@ -1,0 +1,20 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+186770,8473.572,288452.86,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2 ,0,1057.5520000000001,12690.62,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m4.4xlarge), Pricing strategy ( 3 Year  None upfront), Enable monitoring (enabled), EBS Storage amount (100 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),ELB,Application Load Balancer,0,308.43,3701.16,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),VPC-NATGW,Network Address Translation (NAT) Gateway,0,954.45,11453.40,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),VPC-NATGW,Data Transfer,0,0,0.00,USD,,"DT Inbound: Internet (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),A CloudFront distribution ,Amazon CloudFront,0,95.1,1141.20,USD,,"Data transfer out to internet (1000 GB per month), Data transfer out to origin (500 GB per month), Number of requests (HTTPS) (100000 per month)"
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2 ,0,997.24,11966.88,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m5a.4xlarge), Pricing strategy ( 3 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (200 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),A Master DB in AZ1 with a read replica in AZ2,Amazon RDS for PostgreSQL,186770,5060.799999999999,247499.60,USD,,"Storage volume (General Purpose SSD (gp2)), Storage amount (10 TB), Nodes (2), Instance Type (db.m5d.8xlarge), Utilization (On-Demand only) (90 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (3yr), Purchase Option (All Upfront)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
